@@ -1,0 +1,7 @@
+@media (min-width: 640px) and (max-width: 992px){
+    .section2_link_ {
+        border-left: 1px solid #d3bdac;
+        background: red;
+        display: none;
+    }
+}

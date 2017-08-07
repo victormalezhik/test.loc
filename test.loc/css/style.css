@@ -1,0 +1,499 @@
+@font-face {
+    font-family: 'qwe';
+    src: url('../fonts/qwe.eot?6wrez4');
+    src: url('../fonts/qwe.eot?6wrez4#iefix') format('embedded-opentype'),
+    url('../fonts/qwe.ttf?6wrez4') format('truetype'),
+    url('../fonts/qwe.woff?6wrez4') format('woff'),
+    url('../fonts/qwe.svg?6wrez4#qwe') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'qwe' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.qwe-handbag:before {
+    content: "\e900";
+}
+
+.qwe-search:before {
+    content: "\e901";
+}
+
+html, body {
+    height: 100%;
+}
+
+.heade {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    color: #303437;
+}
+
+.header_text {
+    font-weight: bold;
+}
+
+header {
+    background-color: #f2ebe6;
+    padding: 20px 0 0 0;
+}
+
+.logo_center_text {
+    text-transform: uppercase;
+
+}
+
+.logo_center_text ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.logo_center_text ul li {
+    list-style-type: none;
+    padding: 0 25px;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.list {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.list a:hover {
+    text-decoration: none;
+}
+
+.color-text {
+    color: black;
+}
+
+.text {
+    padding: 5px 0 0 0;
+}
+
+.section1 {
+    background-color: #f2ebe6;
+    height: 100%;
+    padding: 200px 0 0 0;
+
+}
+
+.block1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.section1 .col-md-6 .sector1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section1 .col-md-6 .sector2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line {
+    margin: 0 15px;
+    color: #dbc9bc;
+}
+
+.section1_text {
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+}
+
+.section1_text1 {
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+.section1_text a {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    color: #a77c5a;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.section1_text1 a {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    color: #a77c5a;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.section1_text a:hover {
+    text-decoration: none;
+}
+
+.section1_text1 a:hover {
+    text-decoration: underline;
+}
+
+.qwe-search {
+    font-size: 24px;
+    color: #a77c5a;
+    padding: 0 53px;
+}
+
+.qwe-handbag {
+    font-size: 24px;
+    color: #a77c5a;
+    padding: 0 20px;
+}
+
+.sector1 img, .sector2 img {
+    max-width: 660px;
+    max-height: 320px;
+    width: 100%;
+    height: auto;
+
+}
+
+.section2 {
+    height: 100%;
+
+}
+
+.picture1 {
+    max-width: 720px;
+    /*height: auto;*/
+    background-image: url("/glasses/section2_picture1.png");
+}
+
+.section2-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.link {
+    text-decoration: none;
+    height: auto;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    padding: 20px 40px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link-text {
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+.link-text:hover, .simvol:hover {
+    text-decoration: none;
+    color: #a77c5a;
+}
+
+.simvol {
+    padding: 0 0 0 20px;
+}
+
+.bottom-text {
+    text-align: center;
+}
+
+.sector3 {
+    padding: 400px 0 30px 250px;
+}
+
+.picture2 {
+    max-width: 500px;
+    height: auto;
+    background-image: url("/glasses/section2_picture2.png");
+}
+
+.sector4 {
+    padding: 670px 0 50px 0;
+}
+
+.pad {
+    padding: 0 0 0 40px;
+}
+
+.section2_link {
+    border: 1px solid #d3bdac;
+    padding: 85px 0 90px 0;
+    max-width: 374px;
+    height: auto;
+}
+
+.link-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.car {
+    text-align: center;
+}
+
+.link_text1 {
+    text-transform: uppercase;
+    color: #a77c5a;
+    text-decoration: none;
+}
+
+.link_text2 {
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+.section2_link_ {
+    border: 1px solid #d3bdac;
+    border-left: transparent;
+    padding: 85px 0 90px 0;
+    max-width: 374px;
+    height: auto;
+}
+
+.link2:hover {
+    text-decoration: none;
+}
+
+.link_text1:hover, .link_text2:hover {
+    color:black;
+}
+
+.link3:hover {
+    text-decoration: none;
+}
+
+.section2_links {
+    padding: 40px 0 0 0;
+}
+
+
+.section2_links1 {
+    padding: 40px 0 0 0;
+}
+
+.refresh {
+    text-align: center;
+}
+
+.link-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link_text1:hover, .link_text2:hover {
+    text-decoration: none;
+}
+
+.section3 {
+    height: 100%;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.bestsellers {
+    padding: 300px 0 0 0;
+}
+
+.section3_images {
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe {
+    text-align: center;
+    text-transform: uppercase;
+    color: #a77c5a;
+    font-weight: bold;
+}
+
+.price {
+    color: #212121;
+    font-weight: bold;
+}
+
+.price1 {
+    color:#b2b2b2;
+}
+
+.border {
+    border: 20px  solid #f2ebe6;
+ }
+
+.section3_link {
+    text-align: center;
+}
+
+.plus {
+    color: #a77c5a;
+}
+
+.button {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.link_1 {
+    border: 1px solid #b2b2b2;
+    text-decoration: none;
+    height: auto;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px 40px;
+    color: #212121 ;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_1:hover {
+    text-decoration: none;
+    color: #a77c5a;
+}
+
+.sumbol {
+    padding: 0 0 0 40px;
+}
+
+.section4 {
+    height: 100%;
+}
+
+.newarrivals {
+    padding: 190px 0 0 0;
+}
+
+.section4_images {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.section5 {
+    height: 100%;
+    background:#e5e5e5;
+    padding: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5_images {
+    padding: 0 0 0px 0;
+}
+
+.brand1 a img{
+    max-width: 270px;
+    max-height:270px;
+    width: 100%;
+
+    /*border:1px solid #aaaaaa;*/
+    /*background: #e5e5e5;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.section6 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+
+}
+
+.banner_image1 {
+    background-image: url("/glasses/section6_foto1.png");
+    padding: 130px 0 90px 0;
+}
+
+.banner_image2 {
+    background-image: url("/glasses/section6_foto2.png");
+    padding: 150px 0 90px 0;
+}
+
+.banner_text1 {
+    text-align: center;
+    color: white;
+}
+
+.section6_text {
+    padding: 100px 0 0 0;
+}
+
+.banner_text2 {
+    text-align: center;
+    color: #a77c5a;
+
+}
+
+.form {
+    color:black;
+}
+
+
+
+.section6_form {
+    text-align: center;
+}
+
+.user1 {
+    text-transform: uppercase;
+    max-width: 340px;
+    max-height: 100px;
+    width: 100%;
+    border-color: #d3bdac;
+}
+
