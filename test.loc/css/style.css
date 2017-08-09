@@ -179,7 +179,7 @@ header {
 }
 
 .picture1 {
-    max-width: 720px;
+    min-height: 620px;
     width: 100%;
     height: auto;
     background-image: url("/glasses/section2_picture1.png");
@@ -193,7 +193,6 @@ header {
     text-align: center;
     color: white;
     font-weight: bold;
-
 }
 
 .link {
@@ -232,14 +231,13 @@ header {
     text-align: center;
 }
 
-.sector3 {
-    padding: 400px 0 30px 250px;
-}
-
 .picture2 {
     max-width: 500px;
     height: auto;
     background-image: url("/glasses/section2_picture2.png");
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .sector4 {
@@ -363,21 +361,20 @@ header {
     color: #a77c5a;
 }
 
-.button {
-    text-align: center;
-    padding: 30px 0 0 0;
-}
-
 .link_1 {
     border: 1px solid #b2b2b2;
     text-decoration: none;
     height: auto;
     text-transform: uppercase;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 20px 40px ;
     color: #212121 ;
     justify-content: center;
     align-items: center;
+}
+
+.button {
+    text-align: center;
 }
 
 .link_1:hover {
@@ -389,27 +386,21 @@ header {
     padding: 0 0 0 40px;
 }
 
-.newarrivals {
-    padding: 190px 0 0 0;
-}
-
-.section4_images {
-    display: flex;
-    flex-direction: row;
-}
-
 .button1 {
     text-align: center;
     padding: 50px 0 0 0;
 }
 
 .section5 {
-    /*height: 100%;*/
     background:#e5e5e5;
     padding: 100px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.padding_bottom {
+    padding-bottom: 60px;
 }
 
 .brand1 a img{
@@ -449,7 +440,7 @@ header {
     background-position: top center;
     -webkit-background-size: cover;
     background-size: cover;
-    padding: 130px 0 90px 0;
+    padding: 150px 0 90px 0;
 }
 
 .banner_text1 {
@@ -510,7 +501,7 @@ input[type="text"]::-webkit-input-placeholder {
 .section3,
 .section4,
 .section5,
-.section6{
+.section6 {
     margin-top: 50px;
 }
 
@@ -520,4 +511,6 @@ footer {
     background-color: #f2ebe6;
 }
 
-
+.section_text{
+    padding-top: 370px;
+}
