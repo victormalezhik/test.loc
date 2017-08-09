@@ -427,20 +427,10 @@ header {
     justify-content: center;
 }
 
-.section5_images {
-    padding: 0 0 0px 0;
-}
-
 .brand1 a img{
     max-width: 270px;
     max-height:270px;
     width: 100%;
-
-    /*border:1px solid #aaaaaa;*/
-    /*background: #e5e5e5;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
 }
 
 .section6 {
@@ -476,24 +466,53 @@ header {
 .banner_text2 {
     text-align: center;
     color: #a77c5a;
-
 }
 
-.form {
-    color:black;
+.text_banner {
+    align-items: center;
+    padding: 0 0 40px 0;
 }
 
-
-
-.section6_form {
-    text-align: center;
+input[type="text"] {
+    border-color: #d3bdac; /*Цвет рамки*/
 }
 
-.user1 {
-    text-transform: uppercase;
-    max-width: 340px;
-    max-height: 100px;
+input[type="text"]::-webkit-input-placeholder {
+    color: #212121;
+    font-weight: bold;
+}
+
+.form_sredina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_sredina_in {
+    max-width: 500px;
     width: 100%;
+}
+
+.form-control {
+    padding: 40px;
+}
+
+.btn-default {
+    padding: 18px;
+    background-color: #f2ebe6;
     border-color: #d3bdac;
+}
+
+.glyphicon-send {
+    font-size: 40px;
+    color: #a77c5a;
+}
+
+.footer {
+    height: 100%;
+}
+
+.footer_text {
+    background-color: #f2ebe6;
 }
 

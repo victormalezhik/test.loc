@@ -17,44 +17,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        .form {
-            width: 420px; /* Ширина поля с кнопкой */
-            border: 1px solid #d3bdac; /* Параметры рамки */
-            min-height: 20px; /* Минимальная высота */
-        }
-        input[type="text"] {
-            border: none; /* Убираем рамку */
-            outline: none; /* Убираем свечение в Chrome и Safari */
-            -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-            width: 300px; /* Ширина поля */
-            vertical-align: middle; /* Выравнивание по середине */
-            padding: 30px;
-        }
-        input[type="submit"] {
-            width: 70px; /* Ширина кнопки */
-            height: 80px; /* Высота кнопки */
-            border: none; /* Убираем рамку */
-            color: transparent;
-            background: url(glasses/airplane.png) no-repeat 50% 50%; /* Параметры фона */
-            text-align: center;
-        }
-
-        input[type="submit"]:hover {
-            border:none;
-        }
-
-        input[type="text"]::-webkit-input-placeholder {
-            color: #212121;
-            font-weight: bold;
-        }
-        input[type="text"]::-moz-placeholder {
-            color: #ccc;
-        }
-    </style>
 </head>
 <header>
-
     <div class="container">
         <div class="row">
             <div class="heade">
@@ -432,26 +396,53 @@
                     </div>
                 </div>
             </div>
-            <div class="newsletter">
-                <div class="banner">
-                    <div class="section6_text">
-                        <div class="banner_text2">
-                            <p class="text_banner">
-                                <span class="text-center">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</span><br>
-                                Praesent eu risus nulla. In gravida vestibulum nulla,non<br>
-                                rutrum odio vestibulum ac.<br>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="email">
-                        <div class="section6_form">
-                            <div class="col-md-12 form">
-                                <input type="text" name="EMAIL@EMAIL.COM" id="email@email.com" placeholder="EMAIL@EMAIL.COM"
-                                       class="user1"/>
-                                <input type="submit">
+            <div class="col-md-12">
+
+                <div class="newsletter">
+                    <div class="banner">
+                        <div class="section6_text">
+                            <div class="banner_text2">
+                                <div class="text-center">
+                                    <h4 class="text_banner">
+                                        Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br>
+                                        Praesent eu risus nulla. In gravida vestibulum nulla,non<br>
+                                        rutrum odio vestibulum ac.<br>
+                                    </h4>
+                                </div>
                             </div>
                         </div>
+                        <form class="form_sredina">
+                            <div class="form_sredina_in">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="EMAIL@EMAIL.COM">
+                                    <span class="input-group-btn">
+                                   <button class="btn btn-default" type="button">
+                                      <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                                   </button>
+                                   </span>
+                                </div>
+                            </div>
+                        </form>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer_text">
+                <div class="col-md-4">
+                    <div class="first_column">
+                        <h3 class="color_text">BRA<span class="brown">NDS</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
                 </div>
             </div>
         </div>
