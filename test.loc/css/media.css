@@ -4,4 +4,21 @@
         background: red;
         display: none;
     }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 640px){
+    .logo_center_text ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 400px){
+    .section_text .section2-text{
+        display: none;
+    }
 }

@@ -36,12 +36,6 @@ html, body {
     height: 100%;
 }
 
-.heade {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-}
-
 .logo {
     color: #303437;
 }
@@ -97,7 +91,6 @@ header {
 
 .section1 {
     background-color: #f2ebe6;
-    height: 100%;
     padding: 200px 0 0 0;
 
 }
@@ -185,15 +178,15 @@ header {
 
 }
 
-.section2 {
-    height: 100%;
-
-}
-
 .picture1 {
     max-width: 720px;
-    /*height: auto;*/
+    width: 100%;
+    height: auto;
     background-image: url("/glasses/section2_picture1.png");
+    background-repeat:no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .section2-text {
@@ -309,7 +302,6 @@ header {
     padding: 40px 0 0 0;
 }
 
-
 .section2_links1 {
     padding: 40px 0 0 0;
 }
@@ -328,10 +320,6 @@ header {
     text-decoration: none;
 }
 
-.section3 {
-    height: 100%;
-}
-
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
@@ -341,9 +329,10 @@ header {
     padding: 300px 0 0 0;
 }
 
-.section3_images {
-    display: flex;
-    flex-direction: row;
+.section3 img, .section4 img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
 }
 
 .subscribe {
@@ -400,10 +389,6 @@ header {
     padding: 0 0 0 40px;
 }
 
-.section4 {
-    height: 100%;
-}
-
 .newarrivals {
     padding: 190px 0 0 0;
 }
@@ -419,7 +404,7 @@ header {
 }
 
 .section5 {
-    height: 100%;
+    /*height: 100%;*/
     background:#e5e5e5;
     padding: 100px 0 0 0;
     display: flex;
@@ -434,24 +419,37 @@ header {
 }
 
 .section6 {
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.banner {
-
-}
-
 .banner_image1 {
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
     background-image: url("/glasses/section6_foto1.png");
+    background-repeat:no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    background-size: cover;
     padding: 130px 0 90px 0;
 }
 
 .banner_image2 {
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
     background-image: url("/glasses/section6_foto2.png");
-    padding: 150px 0 90px 0;
+    background-repeat:no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 130px 0 90px 0;
 }
 
 .banner_text1 {
@@ -474,7 +472,7 @@ header {
 }
 
 input[type="text"] {
-    border-color: #d3bdac; /*Цвет рамки*/
+    border-color: #d3bdac;
 }
 
 input[type="text"]::-webkit-input-placeholder {
@@ -508,11 +506,18 @@ input[type="text"]::-webkit-input-placeholder {
     color: #a77c5a;
 }
 
-.footer {
-    height: 100%;
+.section2,
+.section3,
+.section4,
+.section5,
+.section6{
+    margin-top: 50px;
 }
 
-.footer_text {
+footer {
+    display: flex;
+    margin-top: 50px;
     background-color: #f2ebe6;
 }
+
 
