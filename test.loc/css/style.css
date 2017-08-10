@@ -71,9 +71,6 @@ header {
 }
 
 .list {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
     padding: 25px;
 }
 
@@ -83,6 +80,18 @@ header {
 
 .color-text {
     color: black;
+}
+
+.script {
+    margin-right: 20px;
+}
+
+.logo_link2 {
+    display: flex;
+}
+
+input[type="search"] {
+    padding: 5px;
 }
 
 .text {
@@ -485,7 +494,7 @@ input[type="text"]::-webkit-input-placeholder {
     padding: 40px;
 }
 
-.btn-default {
+.section6_button {
     padding: 18px;
     background-color: #f2ebe6;
     border-color: #d3bdac;

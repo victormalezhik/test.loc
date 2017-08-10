@@ -6,3 +6,9 @@
         padding: 30px;
     }
 }
+
+@media (min-width: 0px) and (max-width: 280px){
+    .header_button {
+        display: none;
+    }
+}
