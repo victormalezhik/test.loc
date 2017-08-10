@@ -394,6 +394,12 @@ input[type="search"] {
     padding: 0 0 0 40px;
 }
 
+.images1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .button1 {
     text-align: center;
     padding: 50px 0 0 0;
